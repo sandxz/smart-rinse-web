@@ -2,12 +2,12 @@ var featureIndex = 0;
     var features = [
       {
         image: 'img/det-image2.png',
-        title: 'Feature 1',
+        title: 'Find Nearby Laundry',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id scelerisque turpis.'
       },
       {
         image: 'img/det-image.png',
-        title: 'Feature 2',
+        title: 'Find Nearby Laundry',
         description: 'Vestibulum malesuada dolor ac cursus sollicitudin. Vivamus rutrum tincidunt nulla, eu volutpat neque consectetur et.'
       }
     ];
