@@ -40,7 +40,7 @@ nav a:first-child {
 }
 
 #det {
-  background-color: #F7F0F5;
+  background-color: #F1F0EA;
   color: #474954;
   padding: 100px 0;
   background-image: url('background.jpg');
@@ -66,7 +66,7 @@ nav a:first-child {
 }
 
 .det-image img {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -89,7 +89,7 @@ nav a:first-child {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 20px;
-  background-color: #B5BAD0;
+  background-color: #FDFFFC;
   color: #333;
   text-decoration: none;
   font-weight: bold;
@@ -98,6 +98,7 @@ nav a:first-child {
 
 .download-link:hover {
   background-color: #0FA958;
+  color : white
 }
 
 #features {
@@ -105,6 +106,7 @@ nav a:first-child {
   background-color: #2D2A32;
   padding: 1px;
 }
+
 
 #features h3 {
   color: #fff;
@@ -135,19 +137,109 @@ nav a:first-child {
 
 #nextButton {
   position: absolute;
-  right: 0;
+  right: 10px; /* Shift 10px to the left */
   top: 50%;
   transform: translateY(-50%);
-  padding: 15px 30px; /* Increase padding for a bigger button */
-  font-size: 20px; /* Increase font size for a bigger button */
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  color: #333;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  padding: 20px; /* Increase the padding for a bigger button */
+  font-size: 40px; /* Increase the font size for a bigger arrow */
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
 }
 
 #nextButton:hover {
-  background-color: #0FA958;
+  opacity: 0.7; /* Adjust the opacity as needed */
+  color: #0FA958;
 }
+
+
+#teams {
+  position: relative;
+  background-color: #F1F0EA;
+  padding: 1px;
+}
+
+#teams h3 {
+  color: #474954;
+  font-size: 28px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.team img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.teamContent {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+
+.team h4,
+.team p {
+  color: #474954;
+}
+
+.teamContent a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2D2A32;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.follow-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-social a i {
+  font-size: 40px;
+}
+
+.footer-text {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
