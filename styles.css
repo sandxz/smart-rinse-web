@@ -56,7 +56,6 @@ nav a:first-child {
   margin-top: -50px;
 }
 
-
 .det-image img {
   max-width: 100%;
   height: auto;
@@ -121,9 +120,8 @@ nav a:first-child {
   position: relative;
   background-color: #2D2A32;
   padding: 1px;
-  height: 500px; /* Adjust the height as needed */
-  width: 100%; /* Adjust the width as needed */
-  background-size: cover; /* or background-size: contain; */
+  height: 500px; 
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
 }
