@@ -1,17 +1,22 @@
 var featureIndex = 0;
     var features = [
       {
-        image: 'img/det-image2.png',
+        image: 'img/det-image.png',
         title: 'Find Nearby Laundry',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id scelerisque turpis.'
       },
       {
-        image: 'img/det-image.png',
+        image: 'img/det-image3.png',
+        title: 'Find Nearby Laundry',
+        description: 'Vestibulum malesuada dolor ac cursus sollicitudin. Vivamus rutrum tincidunt nulla, eu volutpat neque consectetur et.'
+      },
+      {
+        image: 'img/det-image2.png',
         title: 'Find Nearby Laundry',
         description: 'Vestibulum malesuada dolor ac cursus sollicitudin. Vivamus rutrum tincidunt nulla, eu volutpat neque consectetur et.'
       }
     ];
-    var slideInterval = setInterval(showNextFeature, 4000); // Auto slide interval in milliseconds (5 seconds)
+    var slideInterval = setInterval(showNextFeature, 5000); // Auto slide interval in milliseconds (5 seconds)
 
     function showNextFeature() {
       var featureImage = document.getElementById('featureImage');
