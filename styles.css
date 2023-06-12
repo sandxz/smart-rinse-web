@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #f2f2f2;
+  padding-top: 80px;
 }
 
 header {
@@ -10,10 +11,16 @@ header {
   color: #fff;
   padding-top:5px;
   padding-left: 10px;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add box shadow */
 }
 
 nav {
@@ -22,7 +29,7 @@ nav {
 }
 
 nav img {
-  max-height: 120px;
+  max-height: 100px;
   margin-bottom: 5px;
 }
 
@@ -33,6 +40,22 @@ nav a {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 22px;
+}
+
+nav .coming-soon {
+  position: absolute;
+  
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #0FA958;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+nav .coming-soon:hover {
+  background-color: #0C8346;
 }
 
 nav a:first-child {
@@ -54,18 +77,18 @@ nav a:first-child {
 .det-image {
   flex: 1;
   text-align: center;
-  margin-top: -20px;
+  margin-top: -50px;
 }
 
 .det-image img {
-  max-width: 50%;
+  max-width: 40%;
   height: auto;
 }
 
 .det-description {
   flex: 1;
   margin-left: 10px;
-  margin-top: -40px;
+  margin-top: -20px;
 }
 
 .det-description h2 {
@@ -145,8 +168,8 @@ nav a:first-child {
 }
 
 .feature img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
 
 }
